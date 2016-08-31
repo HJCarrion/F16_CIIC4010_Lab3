@@ -30,8 +30,8 @@ public class MyPanelClass extends JPanel {
                         //Draw a flag
                         g.setColor(Color.RED);
                         g.fillRect(x1, y1, width+1, height/5);
-                        g.fillRect(x1, y1+75, width+1, height/4);
-                        g.fillRect(x1, y1+160, width+1, (height/5)+1);
+                        g.fillRect(x1, (int) (y1+(height*0.38)), width+1, height/4);
+                        g.fillRect(x1, (int) (y1+(height*0.8)), width+1, (height/5)+1);
                         
                         //Draw a Triangle
 //                        g.setColor(Color.BLUE);
